@@ -1,0 +1,103 @@
+/* navbar styling */
+.navigation-bar{
+    background-color: hsl(36, 100%, 99%);
+    padding: 3% 20% 3% 9%;
+}
+.nav-item-container{
+    margin-right: 4%;
+    font-size: 19px;
+}
+.nav-item{
+    padding: 0 6%;
+}
+
+
+/* top section styling */
+
+/* left-top styling */
+.top-section{
+    padding: 1.5% 13% 0 10%;
+}
+.left-top-img-des{
+    width: 92%;
+}
+.left-top-img-mob{
+    display: none;
+}
+.left-top-heading{
+    font-size: 3.2rem;
+    font-weight: 800;
+    padding-top: 4%;
+}
+.left-top-des{
+    text-align: left;
+    font-weight: 400;
+    padding-right: 7.5%;
+    padding-top: 4%;
+}
+.left-top-btn{
+    background-color:hsl(5, 85%, 63%);
+    border-radius: 0%;
+    color: white;
+}
+
+
+/* right-top-styling */
+.right-top{
+    /* padding-right: 3%; */
+    background-color: hsl(240, 100%, 5%);
+}
+.right-top-heading{
+    padding-left: 3%;
+    font-size: 2.6rem;
+    font-weight: 700;
+    color: hsl(35, 77%, 62%);
+}
+.right-top-des{
+    color:white;
+}
+hr{
+    width: 85%;
+}
+.column{
+   padding: 2% 9% 2% 3%; 
+}
+
+
+
+/* mid section styling */
+
+.mid-section{
+    padding: 5% 12% 2% 10%;
+}
+.mid-img{
+    width: 83%;
+}
+.mid-section h3{
+    color: hsl(236, 13%, 42%);
+}
+.inner-row{
+    margin: 0 2%;
+}
+
+
+/* media queries */
+@media (max-width:576px) {
+    
+    .left-top-img-des{
+            display: none;
+    }
+    .left-top-img-mob{
+            display:inline-block;
+            width: 90%;
+    }
+    .left-top-des{
+        padding-bottom: 9%;
+    }
+    .mid-section{
+        padding: 10% 10% 2% 7%;
+    }
+    .inner-row{
+        padding: 5% 0;
+    }
+}
